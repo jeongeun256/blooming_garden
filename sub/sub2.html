@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=1200px">
+		<title>Blooming Garden</title>
+		<link rel="icon" type="image/png" sizes="32x32" href="../images/favicon.png">
+		<link href="../css/sub2.css" rel="stylesheet" type="text/css">
+		<!--popup jquery-->
+		<script src="../js/jquery-1.12.4.min.js"></script>
+		<script src="../js/script2.js"></script>
+	</head>
+	<body>
+		<div id="header_wrap"><!--header S-->
+			<header>
+				<ul class="top_link">
+					<li><a href="login.html">Login</a></li>
+					<li>/</li>
+					<li><a href="join.html">Join now</a></li>
+					<li>/</li>
+					<li><a href="reservation.html">Reservation</a></li>
+				</ul>
+				<h1><a href="../index.html"><img src="../images/header/logo.png" alt="logo"></a></h1>
+				<form class="search_box">
+					<input type="search" placeholder="Search" style="width:160px;font-size:12px;">
+					<button type="submit"><img src="../images/header/search.png" alt="search_icon"></button>
+				</form>	
+			</header>
+		</div><!--header E-->
+		<nav><!--gnb S-->
+			<ul id="gnb">
+				<li><a href="sub1.html">Blooming Garden</a></li>
+				<li><a href="sub2.html">Cafe</a></li>
+				<li><a href="sub3.html">Living</a></li>
+				<li><a href="sub4.html">News</a></li>
+				<li><a href="sub5.html">Membership Card</a></li>
+			</ul>
+			<div class="submenu_wrap"><!--submenu S-->
+				<div class="submenu_line">
+					<div class="submenu_inner">
+						<ul class="submenu1"><!--submenu1 S-->
+							<li>
+								<a href="sub1.html#brand_story">
+									<img src="../images/nav/sub_icon1_01.png" alt="submenu_icon">
+									<p>Brand Story</p>
+								</a>
+							</li>
+							<li>
+								<a href="sub1.html#bi_design">
+									<img src="../images/nav/sub_icon1_02.png" alt="submenu_icon">
+									<p>BI Design</p>
+								</a>
+							</li>
+							<li>
+								<a href="sub1.html#store">
+									<img src="../images/nav/sub_icon1_03.png" alt="submenu_icon">
+									<p>Store</p>
+								</a>
+							</li>
+							<li>
+								<a href="sub1.html#floormap">
+									<img src="../images/nav/sub_icon1_04.png" alt="submenu_icon">
+									<p>Floor Map</p>
+								</a>
+							</li>
+						</ul><!--submenu1 E-->
+						<ul class="submenu2"><!--submenu2 S-->
+							<li>
+								<a href="sub2.html#menu1">
+									<img src="../images/nav/sub_icon1_05.png" alt="submenu_icon">
+									<p>Afternoon tea set</p>
+								</a>
+							</li>
+							<li>
+								<a href="sub2.html#menu2">
+									<img src="../images/nav/sub_icon1_06.png" alt="submenu_icon">
+									<p>Coffee&Beverage</p>
+								</a>
+							</li>
+							<li>
+								<a href="sub2.html#dessert_banner">
+									<img src="../images/nav/sub_icon1_07.png" alt="submenu_icon">
+									<p>Dessert</p>
+								</a>
+							</li>
+							<li>
+								<a href="sub2.html#menu4">
+									<img src="../images/nav/sub_icon1_08.png" alt="submenu_icon">
+									<p>Season</p>
+								</a>
+							</li>
+						</ul><!--submenu2 E-->
+						<ul class="submenu3"><!--submenu3 S-->
+							<li>
+								<a href="sub3.html#store1">
+									<img src="../images/nav/sub_icon1_09.png" alt="submenu_icon">
+									<p>Gift</p>
+								</a>
+							</li>
+							<li>
+								<a href="sub3.html#store2">
+									<img src="../images/nav/sub_icon1_10.png" alt="submenu_icon">
+									<p>Kitchen</p>
+								</a>
+							</li>
+							<li>
+								<a href="sub3.html#store3">
+									<img src="../images/nav/sub_icon1_11.png" alt="submenu_icon">
+									<p>Home</p>
+								</a>
+							</li>
+							<li>
+								<a href="sub3.html#store4">
+									<img src="../images/nav/sub_icon1_12.png" alt="submenu_icon">
+									<p>Kids</p>
+								</a>
+							</li>
+						</ul><!--submenu3 E-->
+						<ul class="submenu4"><!--submenu4 S-->
+							<li>
+								<a href="sub4.html#whats_new">
+									<img src="../images/nav/sub_icon1_13.png" alt="submenu_icon">
+									<p>What’s New</p>
+								</a>
+							</li>
+							<li>
+								<a href="sub4.html#event">
+									<img src="../images/nav/sub_icon1_14.png" alt="submenu_icon">
+									<p>Event</p>
+								</a>
+							</li>
+						</ul><!--submenu4 E-->
+						<ul class="submenu5"><!--submenu5 S-->
+							<li>
+								<a href="sub5.html#benefit_inner">
+									<img src="../images/nav/sub_icon1_15.png" alt="submenu_icon">
+									<p>Benefit</p>
+								</a>
+							</li>
+							<li>
+								<a href="sub5.html#mileage">
+									<img src="../images/nav/sub_icon1_16.png" alt="submenu_icon">
+									<p>Mileage Point</p>
+								</a>
+							</li>
+						</ul><!--submenu4 E-->
+					</div>
+				</div>
+			</div><!--submenu E-->
+		</nav><!--gnb E-->
+		<div id="cafe_banner"><!--cafe_banner S-->
+			<video muted="" preload="true" loop autoplay webkit-playsinline="webkit-playsinline" playsinline="playsinline">
+				<!--
+					미리 로드하기 설정 : preload
+					재생여부 : autoplay (자동재생)
+					사운드 설정 : muted (음소거)
+					반복재생여부 : loop (무한반복)
+				-->
+					<source src="../media/cafe_main_bn.mp4" type="video/mp4">
+			</video>
+		</div><!--cafe_banner E-->
+		<div id="menu1"><!--menu1 S-->
+			<h2>Afternoon Tea Set</h2>
+			<ol>
+				<li>
+					<h3>같이 있으면 행복한 사람과
+						<br>이야기 나누며, 즐길 수 있는
+						<br>애프터눈티 세트
+					</h3>
+					<p class="menu1_text1">Afternoon Tea Set 기본 구성
+						<br>
+						<br><span style="letter-spacing:1.1px;">1단 : 마카롱, 초콜릿 </span>
+						<br>2단 : 컵케익, 조각케익
+						<br>3단 : 샌드위치, 카나페
+						<br>
+						<br>홍차 또는 아메리카노
+					</p>
+					<p class="menu1_text2">※별도 음료 변경 가능
+						<br>
+						<br>※ 계절에 따라 조금씩 다른 재료로 새롭게 선보입니다.
+					</p>
+					<a href="reservation.html" target="_blank">Reservation</a>
+				</li>
+				<li>
+					<img src="../images/sub2/afternoon_img.png" alt="afternoon_tea_set">
+				</li>
+			</ol>
+		</div><!--menu1 E-->
+		<div id="menu2"><!--menu2 S-->
+			<h2>Coffee&Beverage</h2>
+			<ul class="menu2_list">
+				<li class="popupwindow2_1">
+					<a href="sub2.html#menu2"><p><img src="../images/sub2/coffee_01.png" alt="coffee_menu_list"></p>
+					<span>Flora Mlik Tea</span>
+					</a>
+				</li>
+				<li class="popupwindow2_2">
+					<a href="sub2.html#menu2"><p><img src="../images/sub2/coffee_02.png" alt="coffee_menu_list"></p>
+					<span>Chamomile Tea</span>
+					</a>
+				</li>
+				<li class="popupwindow2_3">
+					<a href="sub2.html#menu2"><p><img src="../images/sub2/coffee_03.png" alt="coffee_menu_list"></p>
+					<span>Vanilla Bean Latte</span>
+					</a>
+				</li>
+				<li class="popupwindow2_4">
+					<a href="sub2.html#menu2"><p><img src="../images/sub2/coffee_04.png" alt="coffee_menu_list"></p>
+					<span>Lavender Tea</span>
+					</a>
+				</li>
+			</ul>
+			<ul class="menu2_list">
+				<li class="popupwindow2_5">
+					<a href="sub2.html#menu2"><p><img src="../images/sub2/coffee_05.png" alt="coffee_menu_list"></p>
+					<span>Strawberry Milk Smoothy</span>
+					</a>
+				</li>
+				<li class="popupwindow2_6">
+					<a href="sub2.html#menu2"><p><img src="../images/sub2/coffee_06.png" alt="coffee_menu_list"></p>
+					<span>Pink Rose Ade</span>
+					</a>
+				</li>
+				<li class="popupwindow2_7">
+					<a href="sub2.html#menu2"><p><img src="../images/sub2/coffee_07.png" alt="coffee_menu_list"></p>
+					<span>Tropical Ade</span>
+					</a>
+				</li>
+			</ul>
+			<!--menu2 팝업 시작-->
+			<div class="menu2_popup popup2_1">
+				<div class="close">
+					<button class="button2"><img src="../images/sub2/popup/popup_btn.png" alt="popup_btn"></button>
+				</div>
+				<ul class="popup">
+					<li><img src="../images/sub2/popup/menu2_popup_img1.jpg" alt="menu2_popup_img"></li>
+					<li>
+						<h4>Flora Mlik Tea</h4>
+						<span>[Hot or Iced]</span>
+						<p>인도 히말라야 안개가 만들어 낸 상쾌한 쓴맛과 			
+							<br>우아한 향기가 어우러진 다즐링 티에 
+							<br>부드러운 우유를 넣고
+							<br>먹을 수 있는 생화를 올린 밀크티</p>
+					</li>
+				</ul>
+			</div>
+			<div class="menu2_popup popup2_2">
+				<div class="close">
+					<button class="button2"><img src="../images/sub2/popup/popup_btn.png" alt="popup_btn"></button>
+				</div>
+				<ul class="popup">
+					<li><img src="../images/sub2/popup/menu2_popup_img2.jpg" alt="menu2_popup_img"></li>
+					<li>
+						<h4>Chamomile Tea</h4>
+						<span>[Hot or Iced]</span>
+						<p>늦가을 직접 재배한 무농약 국화로 			
+							<br>은은한 맛과 향이 뛰어난 차</p>
+					</li>
+				</ul>
+			</div>
+			<div class="menu2_popup popup2_3">
+				<div class="close">
+					<button class="button2"><img src="../images/sub2/popup/popup_btn.png" alt="popup_btn"></button>
+				</div>
+				<ul class="popup">
+					<li><img src="../images/sub2/popup/menu2_popup_img3.jpg" alt="menu2_popup_img"></li>
+					<li>
+						<h4>Vanilla Bean Latte</h4>
+						<span>[Hot or Iced]</span>
+						<p>프리미엄 바닐라 빈 시럽이 
+							<br>부드럽게 어우러진 
+							<br>달콤한 카페 라떼</p>
+					</li>
+				</ul>
+			</div>
+			<div class="menu2_popup popup2_4">
+				<div class="close">
+					<button class="button2"><img src="../images/sub2/popup/popup_btn.png" alt="popup_btn"></button>
+				</div>
+				<ul class="popup">
+					<li><img src="../images/sub2/popup/menu2_popup_img4.jpg" alt="menu2_popup_img"></li>
+					<li>
+						<h4>Lavender Tea</h4>
+						<span>[Hot or Iced]</span>
+						<p>지중해 연안이 원산지인  			
+							<br>연보라빛 꽃에서 추출한 허브티</p>
+					</li>
+				</ul>
+			</div>
+			<div class="menu2_popup popup2_5">
+				<div class="close">
+					<button class="button2"><img src="../images/sub2/popup/popup_btn.png" alt="popup_btn"></button>
+				</div>
+				<ul class="popup">
+					<li><img src="../images/sub2/popup/menu2_popup_img5.jpg" alt="menu2_popup_img"></li>
+					<li>
+						<h4>Strawberry Milk Smoothy</h4>
+						<span>[Only Iced]</span>
+						<p>달콤한 국내산 딸기, 얼린 우유로 			
+							<br>부드럽게 갈아낸 스무디</p>
+					</li>
+				</ul>
+			</div>
+			<div class="menu2_popup popup2_6">
+				<div class="close">
+					<button class="button2"><img src="../images/sub2/popup/popup_btn.png" alt="popup_btn"></button>
+				</div>
+				<ul class="popup">
+					<li><img src="../images/sub2/popup/menu2_popup_img6.jpg" alt="menu2_popup_img"></li>
+					<li>
+						<h4>Pink Rose Ade</h4>
+						<span>[Only Iced]</span>
+						<p>먹을 수 있는 장미꽃잎과 함께			
+							<br>핑크빛 로즈향이 나는 에이드</p>
+					</li>
+				</ul>
+			</div>
+			<div class="menu2_popup popup2_7">
+				<div class="close">
+					<button class="button2"><img src="../images/sub2/popup/popup_btn.png" alt="popup_btn"></button>
+				</div>
+				<ul class="popup">
+					<li><img src="../images/sub2/popup/menu2_popup_img7.jpg" alt="menu2_popup_img"></li>
+					<li>
+						<h4>Tropical Ade</h4>
+						<span>[Only Iced]</span>
+						<p>석류, 깔라만시, 레몬, 로즈마리로		
+							<br>상큼한을 더한 에이드</p>
+					</li>
+				</ul>
+			</div>
+			<!--menu2 팝업 끝-->
+		</div><!--menu2 E-->
+		<div id="dessert_banner"><!--dessert_banner S-->
+			<img src="../images/sub2/dessert_bn.png" alt="dessert_banner">
+		</div><!--dessert_banner E-->
+		<div id="menu3"><!--menu3 S-->
+			<h2>Dessert</h2>
+			<ul class="menu3_list">
+				<li class="popupwindow3_1">
+					<a href="sub2.html#menu3"><p><img src="../images/sub2/dessert_01.png" alt="dessert_menu_list"></p>
+					<span>Flora Macaron</span>
+					</a>
+				</li>
+				<li class="popupwindow3_2">
+					<a href="sub2.html#menu3"><p><img src="../images/sub2/dessert_02.png" alt="dessert_menu_list"></p>
+					<span>Macaron Cake</span>
+					</a>
+				</li>
+				<li class="popupwindow3_3">
+					<a href="sub2.html#menu3"><p><img src="../images/sub2/dessert_03.png" alt="dessert_menu_list"></p>
+					<span>Flora Berry Cup Cake</span>
+					</a>
+				</li>
+				<li class="popupwindow3_4">
+					<a href="sub2.html#menu3"><p><img src="../images/sub2/dessert_04.png" alt="dessert_menu_list"></p>
+					<span>Season Fruit Hall Cake</span>
+					</a>
+				</li>
+			</ul>
+			<ul class="menu3_list">
+				<li class="popupwindow3_5">
+					<a href="sub2.html#menu3"><p><img src="../images/sub2/dessert_05.png" alt="dessert_menu_list"></p>
+					<span>Peony Chocolate Hall Cake</span>
+					</a>
+				</li>
+				<li class="popupwindow3_6">
+					<a href="sub2.html#menu3"><p><img src="../images/sub2/dessert_06.png" alt="dessert_menu_list"></p>
+					<span>Rainbow Icecream</span>
+					</a>
+				</li>
+				<li class="popupwindow3_7">
+					<a href="sub2.html#menu3"><p><img src="../images/sub2/dessert_07.png" alt="dessert_menu_list"></p>
+					<span>Mocha Icecream</span>
+					</a>
+				</li>
+			</ul>
+			<!--menu3 팝업 시작-->
+			<div class="modal modal3_1">
+				<div class="menu3_popup">
+					<div class="close">
+						<button class="button3"><img src="../images/sub2/popup/popup_btn.png" alt="popup_btn"></button>
+					</div>
+					<ul class="popup">
+						<li><img src="../images/sub2/popup/menu3_popup_img1.jpg" alt="menu3_popup_img"></li>
+						<li>
+							<h4>Flora Macaron</h4>
+							<span>French vanilla
+								<br>Stock cream
+								<br>Rose strawberry
+								<br>Lavender berry
+								<br>Pansy choco</span>
+							<p>꽃에서 이름을 따온
+								<br>2021년 봄
+								<br>부새롭게 출시된 마카롱입니다.</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="modal modal3_2">
+				<div class="menu3_popup">
+					<div class="close">
+						<button class="button3"><img src="../images/sub2/popup/popup_btn.png" alt="popup_btn"></button>
+					</div>
+					<ul class="popup">
+						<li><img src="../images/sub2/popup/menu3_popup_img2.jpg" alt="menu3_popup_img"></li>
+						<li>
+							<h4>Macaron Cake</h4>
+							<span>Mango Orenge
+								<br>Berries
+								<br>Choco</span>
+							<p>마카롱과 머랭을 데코레이션한 
+								<br>부드러운 조각케익</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="modal modal3_3">
+				<div class="menu3_popup">
+					<div class="close">
+						<button class="button3"><img src="../images/sub2/popup/popup_btn.png" alt="popup_btn"></button>
+					</div>
+					<ul class="popup">
+						<li><img src="../images/sub2/popup/menu3_popup_img3.jpg" alt="menu3_popup_img"></li>
+						<li>
+							<h4>Flora Berry Cup Cake</h4>
+							<span>4p 1set</span>
+							<p>식용생화와 산딸기, 블루베리 등으로 					
+								<br>데코레이션된 핑거푸드 타입의 컵케익</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="modal modal3_4">
+				<div class="menu3_popup">
+					<div class="close">
+						<button class="button3"><img src="../images/sub2/popup/popup_btn.png" alt="popup_btn"></button>
+					</div>
+					<ul class="popup">
+						<li><img src="../images/sub2/popup/menu3_popup_img4.jpg" alt="menu3_popup_img"></li>
+						<li>
+							<h4>Season Fruit Hall Cake</h4>
+							<span>Size : 지름 15cm</span>
+							<p>계절별 싱싱한 생과일을 올린 홀케이크				
+								<br>이미지와 실제 제품과 다를 수 있습니다.</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="modal modal3_5">
+				<div class="menu3_popup">
+					<div class="close">
+						<button class="button3"><img src="../images/sub2/popup/popup_btn.png" alt="popup_btn"></button>
+					</div>
+					<ul class="popup">
+						<li><img src="../images/sub2/popup/menu3_popup_img5.jpg" alt="menu3_popup_img"></li>
+						<li>
+							<h4>Season Fruit Hall Cake</h4>
+							<span>Size : 지름 15cm</span>
+							<p>웨이퍼 페이퍼로 만든 작약 데코레이션으로		
+								<br>꾸며진 달콤한 초콜릿 홀케이크</p>
+						</li>
+					</ul>
+				</div>
+			</div>	
+			<div class="modal modal3_6">
+				<div class="menu3_popup">
+					<div class="close">
+						<button class="button3"><img src="../images/sub2/popup/popup_btn.png" alt="popup_btn"></button>
+					</div>
+					<ul class="popup">
+						<li><img src="../images/sub2/popup/menu3_popup_img6.jpg" alt="menu3_popup_img"></li>
+						<li>
+							<h4>Rainbow Icecream</h4>
+							<span>4가지 맛</span>
+							<p>딸기, 레몬, 망고, 민트 맛의 		
+								<br>프레쉬하고 상큼한 아이스크림</p>
+						</li>
+					</ul>
+				</div>
+			</div>	
+			<div class="modal modal3_7">
+				<div class="menu3_popup">
+					<div class="close">
+						<button class="button3"><img src="../images/sub2/popup/popup_btn.png" alt="popup_btn"></button>
+					</div>
+					<ul class="popup">
+						<li><img src="../images/sub2/popup/menu3_popup_img7.jpg" alt="menu3_popup_img"></li>
+						<li>
+							<h4>Mocha Icecream</h4>
+							<span>3가지 맛</span>
+							<p>초코, 밀크티, 카페라떼 맛의 		
+								<br>구성된 달콤한 아이스크림</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!--menu3 팝업 끝-->
+		</div><!--menu3 E-->
+		<div id="menu4"><!--menu4 S-->
+			<h2>Season</h2>
+			<ul class="menu4_list">
+				<li class="popupwindow4_1">
+					<a href="sub2.html#menu4"><p><img src="../images/sub2/season_01.png" alt="season_menu_list"></p>
+					<span>Sweet Cherry Blossom Set</span>
+					</a>
+				</li>
+				<li class="popupwindow4_2">
+					<a href="sub2.html#menu4"><p><img src="../images/sub2/season_02.png" alt="season_menu_list"></p>
+					<span>Sweet Blossom Waffle Set</span>
+					</a>
+				</li>
+				<li class="popupwindow4_3">
+					<a href="sub2.html#menu4"><p><img src="../images/sub2/season_03.png" alt="season_menu_list"></p>
+					<span>Refresh Berries Mini Cake Set</span>
+					</a>
+				</li>
+				<li class="popupwindow4_4">
+					<a href="sub2.html#menu4"><p><img src="../images/sub2/season_04.png" alt="season_menu_list"></p>
+					<span>Laverder Garden Macaron </span>
+					</a>
+				</li>
+			</ul>
+			<!--menu4 팝업 시작-->
+			<div class="menu4_popup popup4_1">
+				<div class="close">
+					<button class="button4"><img src="../images/sub2/popup/popup_btn.png" alt="popup_btn"></button>
+				</div>
+				<ul class="popup">
+					<li><img src="../images/sub2/popup/menu4_popup_img1.jpg" alt="menu2_popup_img"></li>
+					<li>
+						<h4>Sweet Cherry Blossom Set</h4>
+						<span>Souffle Pancake
+								<br>and
+								<br>Cherry Blossom Tea</span>
+						<p>벚꽃 꿀을 시럽 대용으로 뿌린 
+							<br>수플레 팬케이크와
+							<br>부벚꽃향이 느껴지는 
+							<br>벚꽃잎차 구성</p>
+					</li>
+				</ul>
+			</div>
+			<div class="menu4_popup popup4_2">
+				<div class="close">
+					<button class="button4"><img src="../images/sub2/popup/popup_btn.png" alt="popup_btn"></button>
+				</div>
+				<ul class="popup">
+					<li><img src="../images/sub2/popup/menu4_popup_img2.jpg" alt="menu2_popup_img"></li>
+					<li>
+						<h4>Sweet Blossom Waffle Set</h4>
+						<span>Sweet Waffle
+								<br>and
+								<br>Vanilla Bean Latte</span>
+						<p>벚꽃 꿀을 시럽 대용으로 뿌린 와플과
+							<br>벚꽃향이 나는
+							<br>바닐라라떼 구성</p>
+					</li>
+				</ul>
+			</div>
+			<div class="menu4_popup popup4_3">
+				<div class="close">
+					<button class="button4"><img src="../images/sub2/popup/popup_btn.png" alt="popup_btn"></button>
+				</div>
+				<ul class="popup">
+					<li><img src="../images/sub2/popup/menu4_popup_img3.jpg" alt="menu2_popup_img"></li>
+					<li>
+						<h4>Refresh Berries Mini Cake Set</h4>
+						<span>Fresh Cake
+								<br>and Tea</span>
+						<p>상큼한 딸기, 블루베리로 데코레이션된
+							<br>봄 시즌 미니 케익과 홍차 세트 </p>
+					</li>
+				</ul>
+			</div>
+			<div class="menu4_popup popup4_4">
+				<div class="close">
+					<button class="button4"><img src="../images/sub2/popup/popup_btn.png" alt="popup_btn"></button>
+				</div>
+				<ul class="popup">
+					<li><img src="../images/sub2/popup/menu4_popup_img4.jpg" alt="menu2_popup_img"></li>
+					<li>
+						<h4>Laverder Garden Macaron</h4>
+						<span>6p 1set</span>
+						<p>연보라빛 라벤더 마카롱 
+							<br>시즌 한정 메뉴입니다.
+							<br>일부 매장에서 소진 시 품절 될 수도 있습니다.</p>
+					</li>
+				</ul>
+			</div>
+			<!--menu4 팝업 끝-->
+		</div><!--menu4 E-->
+		<div id="footer_wrap"><!--footer S-->
+			<footer>
+				<div class="footer_link">
+					<ul>
+						<li><a href="sub1.html">ABOUT US</a></li>
+						<li><a href="sub1.html#brand_story">Brand Story</a></li>
+						<li><a href="sub1.html#bi_design">BI Design</a></li>
+						<li><a href="sub1.html#store">Store</a></li>
+						<li><a href="sub1.html#floormap">Floor Map</a></li>
+					</ul>
+					<ul>
+						<li><a href="sub2.html">CAFE</a></li>
+						<li><a href="sub2.html#menu1">Afternoon Tea Set</a></li>
+						<li><a href="sub2.html#menu2">Coffe&Beverage</a></li>
+						<li><a href="sub2.html#dessert_banner">Dessert</a></li>
+						<li><a href="sub2.html#menu4">Season</a></li>
+					</ul>
+					<ul>
+						<li><a href="sub3.html">LIVING</a></li>
+						<li><a href="sub3.html#store1">Gifts</a></li>
+						<li><a href="sub3.html#store2">Kitchen</a></li>
+						<li><a href="sub3.html#store3">Home</a></li>
+						<li><a href="sub3.html#store4">Kids</a></li>
+					</ul>
+					<ul>
+						<li><a href="sub4.html">NEWS</a></li>
+						<li><a href="sub4.html#whats_new">What’s New</a></li>
+						<li><a href="sub4.html#event">Event</a></li>
+					</ul>
+					<ul>
+						<li><a href="sub5.html">MEMBERSHIP CARD</a></li>
+						<li><a href="sub5.html#benefit_inner">Benefit</a></li>
+						<li><a href="sub5.html#mileage">Mileage Point</a></li>
+					</ul>
+				</div>
+				<ol class="sns_link">
+					<li><a href="https://www.youtube.com/" target="_blank"><!--sns_icon1--></a></li>
+					<li><a href="https://www.instagram.com/" target="_blank"><!--sns_icon2--></a></li>
+					<li><a href="https://www.facebook.com/" target="_blank"><!--sns_icon3--></a></li>
+					<li><a href="https://twitter.com/" target="_blank"><!--sns_icon4--></a></li>
+				</ol>
+				<p class="top_button"><a href="#header_wrap">Top ▲ </a></p>
+			</footer>
+		</div>	
+		<div class="footer_bottom">
+			<p class="copyright">Copyrightⓒ 2021 Blooming Garden All rights reserved.</p>
+		</div>
+		<!--footer E-->
+	</body>
+</html>
