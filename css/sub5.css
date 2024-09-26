@@ -1,0 +1,403 @@
+@charset "utf-8";
+*{margin:0;padding:0;}
+ul,ol{list-style-type:none;}
+a{text-decoration:none;color:#B38B41;}
+fieldset{border:0;}
+hr{
+	clear:both;
+	border:0;
+}
+input, button[type="submit"], select{
+	border:none; background:none;
+	font-family:'Arita-buri-SemiBold';
+	font-size:16px;
+    font-weight: 400;
+    font-style: normal;
+	line-height:20px;
+}
+input:focus{color:#473e3e;}
+input:focus, button:focus, select{
+	outline:none;
+	outline-style:none;
+}
+input::placeholder{color:#B38B41;}
+@font-face {
+    font-family: 'Arita-buri-SemiBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Arita-buri-SemiBold.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+body{
+	font-family:'Arita-buri-SemiBold';
+    font-weight: 400;
+    font-style: normal;
+	font-size:16px;
+	line-height:26px;
+	color:#B38B41;
+	position:relative;
+	min-width:1200px;
+}
+/*header*/
+#header_wrap{
+	width:100%;
+	height:138px;
+	box-sizing:border-box;
+	background-color:#fff9eb;
+	background-image:url(../images/header/line.png);
+	background-repeat:repeat-x;
+	background-position:top center;
+}
+header{
+	width:1200px;
+	margin:0 auto;
+	padding-top:62px;
+	position:relative;
+}
+.top_link{
+	padding-left:100px;
+	padding-top:10px;
+	width:210px;
+}
+.top_link, .top_link li{float:left;}
+.top_link li a{
+	display:block;
+	padding:0px 5px;
+}
+.top_link li, .top_link li a{
+	font-size:12px;
+	font-weight:900;
+}
+header h1{
+	position:absolute;
+	top:56px;
+	left:50%;
+	margin-left:-106px;
+}
+.search[type="search"]{
+	font-size:12px;
+}
+.search_box{
+	float:right;
+	width:210px;
+	height:30px;
+	margin-right:100px;
+	border-bottom:1px solid #B38B41;
+	box-sizing:border-box;
+	text-align:center;
+}
+/*gnb*/
+nav{
+	width:100%;
+	height:48px;
+	box-sizing:border-box;
+	border-top:2px solid #B38B41;
+	border-bottom:2px solid #B38B41;
+	background-color:#fff9eb;
+}
+#gnb{
+	width:1000px;
+	margin:0 auto;
+	padding:10px 100px;
+	text-align:center;
+}
+#gnb>li{
+	float:left;
+	width:20%;
+	display:inline-block;
+}
+#gnb>li>a{
+	display:inline-block;
+	width:98%;
+	padding:2px 0 8px;
+	text-transform:uppercase;
+}
+#gnb>li>a:hover{
+	color:#bcd5ea;
+}
+/*submenu*/
+.submenu_wrap{
+	width:100%;
+	height:418px;
+	position:absolute;
+	top:186px;
+	left:0;
+	background-color:#fff9eb;
+	box-sizing:border-box;
+	z-index:9;
+}
+.submenu_line{
+	width:100%;
+	height:410px;
+	border-bottom:2px solid #B38B41;
+}
+.submenu_inner{
+	width:1200px;
+	margin:0 auto;
+	padding:4px 100px;
+	box-sizing:border-box;
+}
+.submenu_inner ul{
+	width:20%;
+	height:400px;
+	float:left;
+	text-align:center;
+}
+.submenu_inner ul li{
+	box-sizing:border-box;
+}
+.submenu_inner ul li a{
+	display:block;
+	font-weight:900;
+	height:100px;	
+	background-repeat:no-repeat;
+	background-position:top center;
+}
+.submenu_inner ul li a img{opacity:0;transition:opacity 1s;}
+.submenu_inner ul li a img:hover {opacity:1;}
+/*submenu1*/
+.submenu1 li:nth-child(1) a{
+	background-image:url(../images/nav/sub_icon_01.png);	
+}
+.submenu1 li:nth-child(2) a{
+	background-image:url(../images/nav/sub_icon_02.png);	
+}
+.submenu1 li:nth-child(3) a{
+	background-image:url(../images/nav/sub_icon_03.png);	
+}
+.submenu1 li:nth-child(4) a{
+	background-image:url(../images/nav/sub_icon_04.png);	
+}
+/*submenu2*/
+.submenu2 li:nth-child(1) a{
+	background-image:url(../images/nav/sub_icon_05.png);	
+}
+.submenu2 li:nth-child(2) a{
+	background-image:url(../images/nav/sub_icon_06.png);	
+}
+.submenu2 li:nth-child(3) a{
+	background-image:url(../images/nav/sub_icon_07.png);	
+}
+.submenu2 li:nth-child(4) a{
+	background-image:url(../images/nav/sub_icon_08.png);	
+}
+/*submenu3*/
+.submenu3 li:nth-child(1) a{
+	background-image:url(../images/nav/sub_icon_09.png);	
+}
+.submenu3 li:nth-child(2) a{
+	background-image:url(../images/nav/sub_icon_10.png);	
+}
+.submenu3 li:nth-child(3) a{
+	background-image:url(../images/nav/sub_icon_11.png);	
+}
+.submenu3 li:nth-child(4) a{
+	background-image:url(../images/nav/sub_icon_12.png);	
+}
+/*submenu4*/
+.submenu4 li:nth-child(1) a{
+	background-image:url(../images/nav/sub_icon_13.png);	
+}
+.submenu4 li:nth-child(2) a{
+	background-image:url(../images/nav/sub_icon_14.png);	
+}
+/*submenu5*/
+.submenu5 li:nth-child(1) a{
+	background-image:url(../images/nav/sub_icon_15.png);	
+}
+.submenu5 li:nth-child(2) a{
+	background-image:url(../images/nav/sub_icon_16.png);	
+}
+.submenu_inner ul li a p{
+	line-height:20px;
+}
+/*benefit*/
+#benefit{
+	width:1200px;
+	height:2032px;
+	margin:0 auto;
+	text-align:center;
+	box-sizing:border-box;
+}
+#benefit h2, #mileage h2{
+	width:1200px;
+	font-size:25px;
+	border-bottom:2px solid #B38B41;
+	text-align:left;
+	background-color:#fff9eb;
+	box-sizing:border-box;
+}
+#benefit h2{height:226px; padding:130px 110px 0; }
+#mileage h2{height:130px; padding:36px 110px 0;}
+.card_bn{
+	width:1200px;
+	height:464px;
+	margin:0 auto;
+	padding:20px 100px 0;
+	background-color:#fff9eb;
+	box-sizing:border-box;
+}
+.imgSlide{
+	width:100%;
+	height:100%;
+}
+.imgSlide img{
+	box-shadow:4px 4px 4px rgba(0,0,0,0.2);
+	border-radius:10px;
+}
+#benefit_inner{
+	height:1342px;
+	display:inline-block;
+	padding-top:100px;
+	box-sizing:border-box;
+}
+#benefit_inner h3{
+	font-size:20px;
+	padding:18px 0;
+	text-align:left;
+}
+#benefit_inner video{
+	display:block;
+	padding-bottom:100px;
+}
+/*mileage*/
+#mileage{
+	width:1200px;
+	height:1180px;
+	margin:0 auto;
+	background-color:#fff9eb;
+	text-align:center;
+}
+#mileage ul{display:inline-block;} /*ul 가운데 가는 속성*/
+#mileage ul li{
+	width:490px;
+	height:460px;
+	float:left;
+	position:relative;
+	box-sizing:border-box;
+	}
+#mileage ul li:nth-child(1){margin-right:11px;}
+#mileage ul li:nth-child(2){margin-left:11px;}
+#mileage ul li img{display:block;}
+#mileage dl{
+	position:absolute;
+	top:0;
+	left:0;
+	color:#473e3e;
+	width:490px;
+	height:460px;
+	padding:45px;
+	box-sizing:border-box;
+	opacity:0;
+	font-size:25px;
+}
+#mileage ul li a:hover dl{
+	opacity:1;
+	transition:opacity 0.5s;
+}
+#mileage dl dt{
+	padding-bottom:18px;
+	border-bottom:2px solid #473e3e;
+}
+#mileage dl dd{	
+	padding-top:44px;
+	line-height:40px;
+}
+.mileage_inner01{padding:30px 0 20px;}
+.mileage_inner01 li:nth-child(1) dl{background-color:rgba(188,213,234,0.8);}
+.mileage_inner01 li:nth-child(2) dl{background-color:rgba(246,207,221,0.8);}
+.mileage_inner02 li:nth-child(1) dl{background-color:rgba(189,206,189,0.8);}
+.mileage_inner02 li:nth-child(2) dl{background-color:rgba(202,175,126,0.8);}
+/*footer*/
+#footer_wrap{
+	width:100%;
+	height:214px;
+	box-sizing:border-box;
+	border-top:2px solid #B38B41;
+	border-bottom:2px solid #B38B41;
+	margin-top:120px;
+	background-color:#fff9eb;
+}
+footer{
+	width:1200px;
+	height:214px;
+	margin:0 auto;
+	padding:20px 100px 0;
+	box-sizing:border-box;
+	position:relative;
+}
+.footer_link ul{
+	width:20%;
+	height:148px;
+	float:left;
+	text-align:center;
+}
+.sns_link{
+	float:right;
+	position:absolute;
+	bottom:18px;
+	right:110px;
+}
+.sns_link li{
+	float:left;
+	padding:8px 11px;
+	width:30px;
+	height:30px;
+}
+.sns_link li a{
+	display:block;
+	width:30px;
+	height:30px;
+	background-repeat:no-repeat;
+	background-position:top center;
+}
+.sns_link li:nth-child(1) a{
+	background-image:url(../images/footer/sns_icon1.png);
+}
+.sns_link li:nth-child(2) a{
+	background-image:url(../images/footer/sns_icon2.png);
+}
+.sns_link li:nth-child(3) a{
+	background-image:url(../images/footer/sns_icon3.png);
+}
+.sns_link li:nth-child(4) a{
+	background-image:url(../images/footer/sns_icon4.png);
+}
+.sns_link li:nth-child(1) a:hover{
+	background-image:url(../images/footer/sns_icon1_1.png);
+}
+.sns_link li:nth-child(2) a:hover{
+	background-image:url(../images/footer/sns_icon2_1.png);
+}
+.sns_link li:nth-child(3) a:hover{
+	background-image:url(../images/footer/sns_icon3_1.png);
+}
+.sns_link li:nth-child(4) a:hover{
+	background-image:url(../images/footer/sns_icon4_1.png);
+}
+.top_button {	
+	bottom:62px;
+	right:20px;
+	position:fixed;
+}
+.top_button a{
+	display:block;
+	padding:5px 10px;
+	color:#fff9eb;
+	background-color:#f6cfdd;
+}
+.top_button a:hover{
+	background-color:#B38B41;
+}
+.footer_bottom{
+	width:100%;
+	height:40px;
+	padding-top:10px;
+	box-sizing:border-box;
+	text-align:center;
+	background-color:#fff9eb;
+}
+.copyright{
+	display:inline-block;
+	width:1200px;
+	margin:0 auto;
+}
